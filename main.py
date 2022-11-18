@@ -5,17 +5,6 @@ import traceback
 from pygame import mixer
 import re
 
-"""import vlc
-
-p = vlc.MediaPlayer("ding.mp3")
-p.play()
-"""
-"""
-mixer.init()
-mixer.music.load('ding.mp3')
-mixer.music.play()
-"""
-
 def get_site():
     url = 'https://maplelegends.com/'
 
@@ -108,7 +97,6 @@ while keep_trying:
         print("Attempt #{}, running since {}".format(attempts, start_time))
         print("----------------------------------")
 time.sleep(2)
-#mixer.music.play()
 
 
 
